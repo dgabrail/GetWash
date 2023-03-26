@@ -1,0 +1,198 @@
+@media screen and (min-width:600px) {
+    .nav {
+        height: auto;
+    }
+
+    .access-btn {
+        display: inline-block;
+    }
+
+    #navBtn {
+        display: none;
+    }
+
+    .header {
+        border: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .nav-content li {
+        display: inline-block;
+    }
+
+    .main {
+        background-image: url(../images/main-pic.jpg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: right;
+        background-size: auto;
+    }
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .main-content p {
+        font-size: 24px;
+        max-width: 520px;
+    }
+
+    .main-content button {
+        padding: 18px 40px;
+        font-size: 18px;
+    }
+
+    .boxes h3 {
+        font-size: 24px;
+    }
+
+    .boxes span {
+        font-size: 18px;
+    }
+
+    .partnership h4 {
+        font-size: 28px;
+    }
+
+    .partnership p {
+        font-size: 18px;
+    }
+
+    .partnership button {
+        font-size: 18px;
+        padding: 18px 40px 18px 40px;
+    }
+
+    .columns {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    .column {
+        max-width: 210px;
+    }
+
+    .app-content {
+        border-radius: 20px;
+    }
+
+    .app-content h5 {
+        font-size: 36px;
+    }
+
+    .app-content p {
+        font-size: 18px;
+    }
+
+    .reviews-title  {
+        font-size: 36px;
+    }
+
+    .human h6 {
+        font-size: 24px;
+    }
+
+    .testimonial-content {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .nav-content {
+        padding: 0;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main {
+        text-align: left;
+    }
+
+    .main-content p {
+        margin: 0 0 25px 0;
+    }
+
+    .main-title {
+        margin: 0 0 25px 0;
+    }
+
+    .fast-start {
+        background-image: url(../images/Group\ 34.jpg);
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: bottom;
+        background-size: auto;
+        padding-bottom: 50px;
+    }
+
+    .boxes {
+        flex-basis: 50%;
+        text-align: left;
+    }
+
+    .badge {
+        margin: 0;
+    }
+
+    .box {
+        display: flex;
+        margin-top: 36px;
+        align-items: normal;
+        justify-content: space-between;
+    }
+
+    .colums {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-content h4 {
+        flex-basis: 50%;
+        font-size: 32px;
+    }
+
+    .input-block {
+        flex-basis: 55%;
+        margin: 0;
+    }
+
+    .form button {
+        flex-basis: auto;
+    }
+
+    .one-block {
+        text-align: left;
+    }
+
+    .image-block {
+        display: block;
+    }
+
+    .link-block {
+        justify-content: left;
+    }
+
+    .testimonial {
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .footer-content {
+        color: #E9ECF5;
+        text-align: right;
+    }
+
+}
